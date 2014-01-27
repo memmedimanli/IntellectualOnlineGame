@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/admin_iog">
+
+
+ <Resource name="jdbc/nhn" auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3307/db_nhn"
+              username="root" 
+              password="100105018" 
+              maxActive="20" 
+              maxIdle="10"
+              maxWait="-1"/>  
+</Context>
